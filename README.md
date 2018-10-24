@@ -233,19 +233,25 @@ sudo terraform plan -out config.tfplan
 sudo terraform apply
 ```
 
-Podemos revisar las configuraciones y cambios futuros:
+- Podemos revisar el ejemplo en:
+
+terraform-asg-example-1628040009.us-east-1.elb.amazonaws.com
+
+
+Tambien podemos revisar las configuraciones y cambios futuros:
+
 ```
 sudo terraform show
 ```
 
 
-## 4. Otras herramientas similares
+## 3. Otras herramientas similares
 
 - Las herramientas de orquestación de configuración, que incluyen Terraform y AWS CloudFormation, están diseñadas para automatizar la implementación de servidores y otra infraestructura.
 
 - Las herramientas de administración de la configuración como Chef, Puppet y las demás en esta lista ayudan a configurar el software y los sistemas en esta infraestructura que ya se ha aprovisionado.
 
-### 4.1 AWS CloudFormation
+### 3.1 AWS CloudFormation
 
 <img src="https://dnp94fjvlna2x.cloudfront.net/wp-content/uploads/2018/04/CF-logo.png" width="128">
 
@@ -257,7 +263,7 @@ CloudFormation le permite obtener una vista previa de los cambios propuestos en 
 
 Para garantizar que la implementación y actualización de la infraestructura se realice de manera controlada, CloudFormation usa Desencadenadores de reversión para revertir las pilas de infraestructura a un estado implementado anterior si se detectan errores.
 
-### 4.2 Azure Resource Manager y Google Cloud Deployment Manager
+### 3.2 Azure Resource Manager y Google Cloud Deployment Manager
 
 **Azure Resource Manager** le permite definir la infraestructura y las dependencias para su aplicación en plantillas, organizar recursos dependientes en grupos que se pueden implementar o eliminar en una sola acción, controlar el acceso a los recursos a través de los permisos de los usuarios y más.
 <center>
