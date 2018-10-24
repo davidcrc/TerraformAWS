@@ -1,0 +1,5 @@
+key/AWSKeyDavid.pem
+ignorame
+key/AWSKeyTest.pem
+.terraform/plugins/linux_amd64/lock.json
+.terraform/plugins/linux_amd64/terraform-provider-aws_v1.41.0_x4
