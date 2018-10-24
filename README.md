@@ -235,7 +235,7 @@ sudo terraform apply
 
 - Podemos revisar el ejemplo en:
 
-terraform-asg-example-1628040009.us-east-1.elb.amazonaws.com
+[Click para ir al ejemplo](terraform-asg-example-1628040009.us-east-1.elb.amazonaws.com)
 
 
 Tambien podemos revisar las configuraciones y cambios futuros:
