@@ -233,10 +233,6 @@ sudo terraform plan -out config.tfplan
 sudo terraform apply
 ```
 
-- Podemos revisar el ejemplo en:
-
-[Click para ir al ejemplo](http://terraform-asg-example-1628040009.us-east-1.elb.amazonaws.com)
-
 
 Tambien podemos revisar las configuraciones y cambios futuros:
 
